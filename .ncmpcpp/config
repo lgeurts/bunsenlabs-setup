@@ -1,0 +1,52 @@
+####################################################
+## $ ncmpcpp -v :: 0.6_beta2
+####################################################
+#
+## Directory for storing ncmpcpp related files.
+#
+ncmpcpp_directory = "~/.ncmpcpp"
+#
+## Connection settings to mpd.
+#
+mpd_host = localhost
+mpd_port = 6600
+mpd_connection_timeout = 5
+#
+## Needed for tag editor and file operations to work.
+#
+mpd_music_dir = "/home/lgeurts/Music"
+mpd_crossfade_time = 5
+#
+## Next settings needed for ncmpcpp to determine which 
+## output provides data for visualizer and thus allows
+## syncing between visualization and sound.
+#
+visualizer_output_name = "FIFO"
+visualizer_fifo_path = "/tmp/mpd.fifo"
+#
+## If you set format to 44100:16:2, make it 'yes'.
+#
+visualizer_in_stereo = yes
+#
+## Multiply the received samples by given value. Very
+## useful for proper visualization of quiet music.
+#
+visualizer_sample_multipler = 1
+#
+## The next parameter defines how often ncmpcpp has to 
+## "synchronize" visualizer and audio outputs.
+## 30 seconds is an optimal, but you can set this lower 
+## lower when there are problems.
+## Keep in mind that sane values start with >=10.
+#
+visualizer_sync_interval = 30
+#
+## Available values: spectrum, wave.
+#
+visualizer_type = "spectrum"
+visualizer_look = "●▮"
+#
+## Set user interface.
+#
+user_interface = "alternative"
+#
