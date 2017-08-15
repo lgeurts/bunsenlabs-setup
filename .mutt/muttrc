@@ -64,7 +64,7 @@ alternative_order text/plain text/enriched text/html
 # Advanced Options -----------------------------------------------------
 set envelope_from = yes # Try to derive the message's envelope sender from the "From:" header 
 set move = no # Don't confirm moving read messages
-set delete	= ask-yes # Actually delete messages marked for deletion on exit
+set delete = ask-yes # Actually delete messages marked for deletion on exit
 set quit = yes	# Make 'quit' and 'exit' actually quit mutt
 set mark_old = no	# Don't mark messages as old
 set beep_new = no	# Don't beep on new messages
@@ -78,7 +78,7 @@ set alias_file = ~/.mutt/aliases # Where to store aliases
 set header_cache = "~/.mutt/cache/headers" # Where to store headers
 set message_cachedir = "~/.mutt/cache/bodies" # Where to store bodies
 set certificate_file = "~/.mutt/certificates" # Where to store cerificate file
-set tmpdir	= ~/.mutt/temp # Where to keep temp files
+set tmpdir = ~/.mutt/temp # Where to keep temp files
 set signature = "~/.mutt/gmailsig.txt" # My Gmail signature file
 
 # Show all mails that are flagged (and that I need to reply to)
