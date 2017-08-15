@@ -65,7 +65,7 @@ alternative_order text/plain text/enriched text/html
 set envelope_from = yes # Try to derive the message's envelope sender from the "From:" header 
 set move = no # Don't confirm moving read messages
 set delete = ask-yes # Actually delete messages marked for deletion on exit
-set quit = yes	# Make 'quit' and 'exit' actually quit mutt
+set quit = yes # Make 'quit' and 'exit' actually quit mutt
 set mark_old = no	# Don't mark messages as old
 set beep_new = no	# Don't beep on new messages
 set print = ask-yes # Ask for confirmation before printing
