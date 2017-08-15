@@ -6,4 +6,4 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 
 ***See the BL Colors screenshots for end result.***
 
-Note: credits for the Oomox-Colors theme go to Unix121 aka Stavros. I only made some minor changes.
+Note: credits for the Oomox-Colors theme go to [Unix121](https://github.com/unix121) aka Stavros. I only made some minor changes.
