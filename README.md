@@ -10,6 +10,20 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 
 ![Dirty](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-dirty-scrot.png)
 
+## Setup
+
+- Application Launcher: `rofi`
+- Bar: `lemonbar`
+- Compositor: `compton`
+- Music Player: `spotify` / `mopidy` + `ncmpcpp`
+- Notifications: `dunst`
+- Shell: `bash`
+- Terminal Emulator: `urxvt`
+- Text Editor: `neovim` / `vim`
+- Video Player: `mpv`
+- Web Browser: `Firefox (Nightly)`
+- Window Manager: `i3-gaps` / `openbox`
+
 Open sourced under the [GPL license](LICENSE).
 
 <3
