@@ -1,0 +1,39 @@
+snippet b "\\textbf{}" w
+\textbf{$1}
+endsnippet
+
+snippet e "\emph{}" w
+\emph{$1}
+endsnippet
+
+snippet i "\emph{}" w
+\emph{$1}
+endsnippet
+
+snippet t "\texttt{}" w
+\texttt{$1}
+endsnippet
+
+snippet inc "\includegraphics{}" w
+\includegraphics[scale=${2:${VISUAL:1}}]{$1}
+endsnippet
+
+snippet -> "$\rightarrow$" i
+$\rightarrow$ 
+endsnippet
+
+snippet => "$\Rightarrow$" i
+$\Rightarrow$ 
+endsnippet
+
+snippet fn "\footnote{}" i
+\footnote{%
+	%
+	$0
+	%
+}
+endsnippet
+
+snippet figref "Figure~\\ref{}" w
+\figurename~\ref{fig:$1}
+endsnippet
