@@ -12,17 +12,14 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 
 ## Setup
 
-- Application Launcher: `rofi`
-- Bar: `lemonbar`
+- Bar: `tint2`
 - Compositor: `compton`
-- Music Player: `spotify` / `mopidy` + `ncmpcpp`
-- Notifications: `dunst`
 - Shell: `bash`
-- Terminal Emulator: `urxvt`
-- Text Editor: `neovim` / `vim`
+- Terminal Emulator: `terminator`
+- Text Editor: `Gvim/` / `vim`
 - Video Player: `mpv`
-- Web Browser: `Firefox (Nightly)`
-- Window Manager: `i3-gaps` / `openbox`
+- File Manager: `ranger`
+- Window Manager: `openbox`
 
 Open sourced under the [GPL license](LICENSE).
 
