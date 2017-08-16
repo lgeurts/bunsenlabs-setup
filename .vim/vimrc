@@ -5,7 +5,8 @@ execute pathogen#infect()
 let mapleader=" "
 
 " FILE TYPES
-filetype plugin indent on
+filetype on
+filetype plugin on
 
 " THEME & LAYOUT
 syntax enable
