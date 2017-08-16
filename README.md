@@ -11,8 +11,6 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 
 ![screen]()
 
-Full installation guide on my [GitHub page](https://lgeurts.github.io).
-
 Open sourced under the [GPL license](LICENSE).
 
 <3
