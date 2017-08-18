@@ -8,6 +8,12 @@ let mapleader=" "
 filetype on
 filetype plugin on
 
+" FILE SAVING
+" Enable fast saving
+nmap <leader>w :w!<CR>
+" Save file as sudo (when permission is denied)
+command W w !sudo tee % > /dev/null
+ 
 " THEME & LAYOUT
 syntax enable
 set background=dark
@@ -20,11 +26,17 @@ syntax on
 let g:gitgutter_sign_column_always=1
 
 " SEARCH
+" Make search act like in a modern browser
+set incsearch
+" Highlight search results
 set hlsearch
 nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
-
-" PERFORMANCES & HISTORY
+ 
+" PERFORMANCE & HISTORY
+" Don't redraw while executing macros
+set lazyredraw
 set hidden
+" Lines of history to remember
 set history=100
 
 " SWAP FILES
@@ -38,7 +50,22 @@ set shiftwidth=2
 set expandtab
 set smartindent
 set autoindent
-autocmd BufWritePre * :%s/\s\+$//e " Remove whitespaces on save
+" Remove whitespaces on save
+autocmd BufWritePre * :%s/\s\+$//e
+
+" SPELL CHECKING
+" Pressing ,ss will toggle and untoggle spell checking
+map <leader>ss :setlocal spell!<CR>
+
+" SOUND ON ERRORS
+set noerrorbells
+set novisualbell
+set t_vb=
+set tm=500
+" Properly disable sound on errors on MacVim
+if has("gui_macvim")
+  autocmd VimEnter * set vb t_vb=
+endif
 
 " NERDTree
 let NERDTreeMapActivateNode='<right>'
