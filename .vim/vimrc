@@ -54,7 +54,7 @@ set autoindent
 autocmd BufWritePre * :%s/\s\+$//e
 
 " SPELL CHECKING
-" Pressing ,ss will toggle and untoggle spell checking
+" Pressing space + ss will toggle and untoggle spell checking
 map <leader>ss :setlocal spell!<CR>
 
 " SOUND ON ERRORS
