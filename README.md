@@ -8,10 +8,9 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 
 ![Clean](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-clean-scrot.png)
 
+
 ![Dirty](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-dirty-scrot.png)
-
-![Ricing](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-ricing-scrot.png)
-
+# ![Ricing](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-ricing-scrot.png)
 ## Setup
 
 - Bar: `tint2`
