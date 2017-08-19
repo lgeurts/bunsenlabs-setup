@@ -1,1 +1,28 @@
-
+[global_config]
+  enabled_plugins = InactivityWatch, LaunchpadCodeURLHandler, LaunchpadBugURLHandler
+[keybindings]
+[profiles]
+  [[default]]
+    foreground_color = "#ead49b"
+    palette = "#39474a:#986345:#788249:#9b6a46:#3465a4:#b9924a:#5d796a:#977d5e:#4c5f63:#b07350:#869151:#af6b42:#567a6e:#d69d55:#668574:#ab9c71"
+    background_darkness = -0.1
+    audible_bell = True
+    background_image = None
+    cursor_color = "#be5e1e"
+    cursor_blink = False
+    scrollbar_position = hidden
+    show_titlebar = False
+    antialias = False
+    font = Monospace 10
+    background_color = "#1e272b"
+    allow_bold = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
