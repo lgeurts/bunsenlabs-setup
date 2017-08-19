@@ -4,7 +4,7 @@
 
 Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made by me, some by others. For a full installation guide, read [this post](https://lgeurts.github.io/open%20source/2017/07/11/bunsenlabs-linux-setup-notes-for-dell-inspiron-6000/).
 
-**Note:** credits for the Oomox-Colors theme go to [Unix121](https://github.com/unix121) aka Stavros. I only made some minor changes.
+**Note:** credits for the theme go to [Unix121](https://github.com/unix121) aka Stavros. I only made some minor changes.
 
 ![Clean](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-clean-scrot.png)
 
