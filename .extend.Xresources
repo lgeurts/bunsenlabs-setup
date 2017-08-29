@@ -1,0 +1,20 @@
+! COLOR PALETTE HERE !
+xterm*color0:      #1E272B
+xterm*color1:      #685742
+xterm*color2:      #9D6A47
+xterm*color3:      #B36D43
+xterm*color4:      #78824B
+xterm*color5:      #D99F57
+xterm*color6:      #C9A554
+xterm*color7:      #EAD49B
+xterm*color9:      #685742
+xterm*color10:     #9D6A47
+xterm*color11:     #B36D43
+xterm*color12:     #78824B
+xterm*color13:     #D99F57
+xterm*color14:     #C9A554
+xterm*color15:     #EAD49B
+xterm*color8:      #666666
+
+xterm*fading:      15
+xterm*fadeColor:   black
