@@ -16,7 +16,7 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 - Bar: `tint2`
 - Compositor: `compton`
 - Terminal Emulator: `terminator`
-- Text Editor: `Gvim / vim`
+- Text Editor: `gvim / vim`
 - Video Player: `mpv`
 - File Manager: `ranger`
 - Window Manager: `openbox`
