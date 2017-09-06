@@ -1,6 +1,6 @@
-##############################################################################
+############################################################################
 # BunsenLabs Setup for Hydrogen/Deuterium.
-##############################################################################
+############################################################################
 
 Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made by me, some by others. For a full installation guide, read [this post](https://lgeurts.github.io/open%20source/2017/07/11/bunsenlabs-linux-setup-notes-for-dell-inspiron-6000/).
 
