@@ -6,56 +6,55 @@
 rounded = 0
 border_width = 0
 border_sides = TBLR
-background_color = #1E272B 100
-border_color = #1E272B 30
-background_color_hover = #1E272B 60
-border_color_hover = #1E272B 30
-background_color_pressed = #1E272B 60
-border_color_pressed = #1E272B 30
+background_color = #1e272b 100
+border_color = #1e272b 30
+background_color_hover = #1e272b 60
+border_color_hover = #1e272b 30
+background_color_pressed = #1e272b 60
+border_color_pressed = #1e272b 30
 
 # Background 2: Default task, Iconified task
 rounded = 4
 border_width = 1
 border_sides = TBLR
-background_color = #1E272B 52
-border_color = #1E2727B 30
-background_color_hover = #1E272B 22
-border_color_hover = #1E272B 44
-background_color_pressed = #1E272B 4
-border_color_pressed = #1E272B 44
+background_color = #1e272b 52
+border_color = #1e272b 30
+background_color_hover = #1e272b 22
+border_color_hover = #1e272b 44
+background_color_pressed = #1e272b 4
+border_color_pressed = #1e272b 44
 
 # Background 3: Active task
 rounded = 4
 border_width = 1
 border_sides = TBLR
-#background_color = #BE5E1E 45
-background_color = #696D6E 24
-border_color = #1E272B 40
-background_color_hover = #1E272B 22
-border_color_hover = #1E272B 44
-background_color_pressed = #1E272B 4
-border_color_pressed = #1E272B 44
+background_color = #696d6e 20
+border_color = #1e272b 40
+background_color_hover = #1e272b 20
+border_color_hover = #1e272b 44
+background_color_pressed = #1e272b 4
+border_color_pressed = #1e272b 44
 
 # Background 4: Urgent task
 rounded = 4
 border_width = 1
 border_sides = TBLR
-background_color = #1E272B 35
-border_color = #1E2723B 100
-background_color_hover = #1E272B 100
-border_color_hover = #1E272B 100
-background_color_pressed = #1E272B 4
-border_color_pressed = #1E272B 100
+background_color = #1e272b 35
+border_color = #1e272b 100
+background_color_hover = #1e272b 100
+border_color_hover = #1e272b 100
+background_color_pressed = #1e272b 4
+border_color_pressed = #1e272b 100
 
 # Background 5: Tooltip
 rounded = 1
 border_width = 1
 border_sides = TBLR
-background_color = #1E272B 100
+background_color = #1e272b 100
 border_color = #000000 100
-background_color_hover = #1E272B 100
-border_color_hover = #1E272B 100
-background_color_pressed = #1E272B 100
+background_color_hover = #1e272b 100
+border_color_hover = #1e272b 100
+background_color_pressed = #1e272b 100
 border_color_pressed = #000000 100
 
 #-------------------------------------
