@@ -105,15 +105,15 @@ task_align = left
 #-------------------------------------
 # Task
 task_text = 1
-task_icon = 0
+task_icon = 1
 task_centered = 1
 urgent_nb_of_blink = 100000
 task_maximum_size = 150 50
 task_padding = 8 6 4
 task_tooltip = 0
 task_font = Droid Sans Mono Medium 9
-task_font_color = #788249 70
-task_active_font_color = #af6b42 100
+task_font_color = #788249 86
+task_active_font_color = #af6b42 86
 task_background_id = 2
 task_active_background_id = 3
 task_urgent_background_id = 4
