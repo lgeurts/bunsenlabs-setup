@@ -79,6 +79,9 @@ volumeicon &
 ## Start Clipboard manager
 #clipit &
 
+## Start dzen2
+#dzen2 &
+
 ## bl-welcome - post-installation script, will not run in a live session and
 ## only runs once. Safe to remove.
 (sleep 10; bl-welcome --firstrun) &
@@ -86,5 +89,3 @@ volumeicon &
 ## bl-fortune - have the system come up with a little adage (not yet enabled)
 #(sleep 120; bl-fortune) &
  
-## Start dzen2
-#dzen2 &
