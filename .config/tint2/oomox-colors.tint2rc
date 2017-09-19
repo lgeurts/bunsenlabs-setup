@@ -60,16 +60,17 @@ border_color_pressed = #000000 100
 #-------------------------------------
 # Panel
 panel_items = E:E:E:LTSC
-panel_size =100% 20
+panel_size = 100% 20
 panel_margin = 0 0 
 panel_padding = 0 0
 panel_background_id = 1
 wm_menu = 1
+panel_shrink = 0
 panel_dock = 0
 panel_position = top center horizontal
 panel_layer = top
 panel_monitor = all
-primary_monitor_first = 0
+primary_monitor_first = 1
 autohide = 0
 autohide_show_timeout = 0
 autohide_hide_timeout = 0.5
