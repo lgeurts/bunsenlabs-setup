@@ -8,6 +8,8 @@
 
 Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made by me, some by others. For a full installation guide, read [this post](https://lgeurts.github.io/open%20source/2017/07/11/bunsenlabs-linux-setup-notes-for-dell-inspiron-6000/).
 
+## Screenshots
+
 ![Clean](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-clean.png)
 
 
