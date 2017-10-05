@@ -25,6 +25,4 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 - File Manager: `ranger`
 - Window Manager: `Openbox`
 
-This repository is open sourced under the [GPL license](LICENSE.md).
-
 <3
