@@ -1,6 +1,6 @@
-[![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/lgeurts/BunsenLabs-Setup) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
-
 # Read Me
+
+[![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/lgeurts/BunsenLabs-Setup) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
 ############################################################################
 # BunsenLabs Setup for Hydrogen/Deuterium.
