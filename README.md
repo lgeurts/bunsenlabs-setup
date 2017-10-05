@@ -18,9 +18,9 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 - Bar: `tint2` 
 - Compositor: `compton` 
 - Terminal Emulator: `terminator`
-- Text Editor: `gVim / vim`
-- Video Player: `mpv`
-- File Manager: `ranger`
+- Text Editor: `gVim`/`Geany`
+- MPD client: `ncmpcpp`
+- IRC client: `HexChat`
 - Window Manager: `Openbox`
 - Theme: `Oomox Colors`
 
