@@ -22,7 +22,7 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 - Video Player: `mpv`
 - File Manager: `ranger`
 - Window Manager: `Openbox`
-- Theme: `Oomox`
+- Theme: `Oomox Colors`
 
 **Note:** Credits for the theme go to Stavros Grigoriou aka [Unix121](https://github.com/unix121). I only made some minor changes.
 
