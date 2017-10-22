@@ -1,1 +1,65 @@
+# Browser.
+browser "firefox"
 
+# If yes, then all feeds will be reloaded when newsbeuter starts up. This is equivalent to the -r commandline option.
+refresh-on-startup yes
+
+# Hide empty feeds.
+show-read-feeds no
+
+# Toggle whether read feeds should be shown in the feed list.
+bind-key I toggle-show-read-feeds
+
+# Hide read articles.
+show-read-articles no
+
+# Unbind next artile key.
+unbind-key p
+
+# Navigation.
+bind-key h quit
+bind-key j down
+bind-key k up
+bind-key l open
+
+# Open feed.
+bind-key ENTER open-in-browser
+
+# The number of minutes between automatic reloads.
+reload-time 10
+
+# Auto refresh.
+auto-reload yes
+
+# The sortfield specifies which article property shall be used for sorting (currently available: date, title, flags, author, link, guid). The optional direction specifies the sort direction ("asc" specifies ascending sorting, "desc" specifies descending sorting).
+article-sort-order date-asc
+
+# Confirm exit.
+confirm-exit no 
+
+# Set the maximum number of articles to keep per feed. If the number is set to 0, then all articles are kept.
+max-items 100 
+
+# If set to "yes", then all read articles will be deleted when you quit newsbeuter. 
+#delete-read-articles-on-quit yes 
+
+# Toggle the read flag for the currently selected article. 
+unbind-key n
+bind-key n toggle-article-read
+
+# Ignore articles.
+ignore-mode "display"
+
+feedlist-format "%4i %n %11u %t"
+articlelist-format  "%4i %f %D  %?T?%-17T  ?%t" 
+
+bind-key BACKSPACE toggle-article-read
+
+# Colors.
+color listnormal color12 color8
+color listfocus black white
+color listnormal_unread default color8
+color listfocus_unread black white
+color background color12 color8
+color info white black bold
+color article color12 color8
