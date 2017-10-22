@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Last update : 24 June 2017
-
 # Written by : Luc Geurts (/Luge)
 # GitHub : https://github.com/lgeurts
 # E-mail : lgeurts@protonmail.com

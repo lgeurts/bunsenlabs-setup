@@ -1,7 +1,5 @@
-#! /bin/bash
-# wallpaper-changer.sh
-# v.1
-#________________________________________________________________________________________________________
+#!/bin/bash
+__________________________________________________________________________________________________
 # This script provides a wallpaper change among the files contained in the directory specified as arg1 ($1),
 # every periode of time set as arg2 ($2).
 

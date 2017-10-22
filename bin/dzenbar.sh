@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 RC="$HOME/.config/conky/conkyrc_dzen_mine"
 FG="#E0DED3"

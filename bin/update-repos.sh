@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-#
+#!/bin/bash
+
 # Usage: ./update.sh [pattern]
 #
 # Specify [pattern] to update only repos that match the pattern.

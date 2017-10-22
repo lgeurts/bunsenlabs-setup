@@ -1,4 +1,5 @@
 #!/bin/bash
+
 clear
 username=$(whoami)
 interface=`ip route show | cut -d ' ' -f 3 | head -1`

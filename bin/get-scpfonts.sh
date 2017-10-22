@@ -1,4 +1,5 @@
 #!/bin/bash
+
 FONT_NAME="SourceCodePro"
 URL="https://github.com/adobe-fonts/source-code-pro/archive/1.017R.zip"
 
