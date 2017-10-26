@@ -20,20 +20,20 @@ ________________________________________________________________________________
 #_______________________________________________________________________________________________________
 
 path="$1"
-# If argument 1 is empty, exit the script with error message (if launched in a terminal).
+# If argument 1 is empty, exit the script with error message (if launched in a terminal):
 if [ -z "$1" ]; then
     echo "arg1 is empty, specify image files path"
     exit 1
 fi
 
 delay="$2"
-# If argument 2 is empty, use 600 seconds as default.
+# If argument 2 is empty, use 600 seconds as default:
 if [ -z "$2" ]; then
     delay=600
 fi
 
 mode="$3"
-# If argument 3 is empty, set it as l (for linear) 
+# If argument 3 is empty, set it as l (for linear):
 if [ -z "$3" ]; then
     mode=l
 fi
@@ -42,25 +42,25 @@ NUM=0
 
 while true
 do 	sleep $delay
-	# list the files in the directory :
+	# List the files in the directory:
 	ALIST=( `ls -w1 "$path"` )
 
-	# Count the files :
+	# Count the files:
 	RANGE=${#ALIST[@]}
 
 	if [ $mode = "r" ] || [ $mode = "R" ]; then
-		# Random mode :
+		# Random mode:
 		NEWNUM=$NUM
 			while 	[[ $NEWNUM = $NUM ]]
 			do 		let NEWNUM="$RANDOM % $RANGE"
 			done
 		NUM=$NEWNUM
 	else 
-		# Linear mode :
+		# Linear mode:
 		let NUM="$(($NUM+1)) % $RANGE"
 	fi
 	
-	# Change the wallpaper using nitrogen :
+	# Change the wallpaper using nitrogen:
 	nitrogen --set-auto $path/${ALIST[$NUM]}
 
 done

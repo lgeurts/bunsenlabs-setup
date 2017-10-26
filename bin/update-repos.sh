@@ -7,40 +7,26 @@
 repos=(
 
   airblade/vim-gitgutter
-  #alampros/vim-styled-jsx
-  #altercation/vim-colors-solarized
   #ap/vim-css-color
   #docunext/closetag.vim
   ervandew/supertab
-  #haya14busa/incsearch.vim
   itchyny/lightline.vim
   #junegunn/fzf.vim
   #junegunn/goyo.vim
   #mileszs/ack.vim
-  #nathanaelkane/vim-indent-guides
-  #qpkorr/vim-bufkill
   scrooloose/nerdcommenter
   scrooloose/nerdtree
   #sheerun/vim-polyglot
-  #statico/vim-inform7
   terryma/vim-multiple-cursors
-  #tomasr/molokai
   tpope/vim-bundler
   #tpope/vim-commentary
-  tpope/vim-dispatch
+  #tpope/vim-dispatch
   tpope/vim-endwise
-  #tpope/vim-eunuch
   tpope/vim-fugitive
   #tpope/vim-pathogen
-  #tpope/vim-repeat
-  #tpope/vim-rhubarb
-  #tpope/vim-sleuth
-  #tpope/vim-surround
-  #tpope/vim-unimpaired
   tpope/vim-rails
   vim-ruby/vim-ruby
   #w0rp/ale
-  #wellle/targets.vim
   wincent/command-t
 
 )
