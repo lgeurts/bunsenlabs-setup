@@ -1,65 +1,63 @@
-# Browser.
-browser "firefox"
+# File: ~/.config/newsbeuter/config
+# Vim: set ai et fenc=utf-8 ft=conf nu si sts=0 sw=4 ts=8 tw=0 :
 
-# If yes, then all feeds will be reloaded when newsbeuter starts up. This is equivalent to the -r commandline option.
+# Basics ---------------------------------------------------------------
+
+auto-reload yes
+browser firefox
+cleanup-on-quit yes
+download-path "/home/lgeurts/Downloads/podcasts"
+feed-sort-order title-dec
+article-sort-order date-asc
+max-downloads 4
+max-items 100
+notify-always yes
+notify-format "newsbeuter: %n unread articles within %f unread feeds"
+notify-program notify-send
+notify-screen no
+notify-xterm yes
+player mplayer
 refresh-on-startup yes
-
-# Hide empty feeds.
-show-read-feeds no
-
-# Toggle whether read feeds should be shown in the feed list.
-bind-key I toggle-show-read-feeds
-
-# Hide read articles.
+reload-threads 2
+reload-time 10
+show-read-feeds yes
 show-read-articles no
 
-# Unbind next artile key.
-unbind-key p
+# Binds ----------------------------------------------------------------
 
-# Navigation.
-bind-key h quit
-bind-key j down
-bind-key k up
-bind-key l open
+unbind-key t
+unbind-key R
+bind-key \ reload-all
+bind-key "ENTER" open-in-browser
+bind-key "RIGHT" select-tag
+bind-key "SPACE" open
 
-# Open feed.
-bind-key ENTER open-in-browser
+# Hide articles matching: ----------------------------------------------
 
-# The number of minutes between automatic reloads.
-reload-time 10
-
-# Auto refresh.
-auto-reload yes
-
-# The sortfield specifies which article property shall be used for sorting (currently available: date, title, flags, author, link, guid). The optional direction specifies the sort direction ("asc" specifies ascending sorting, "desc" specifies descending sorting).
-article-sort-order date-asc
-
-# Confirm exit.
-confirm-exit no 
-
-# Set the maximum number of articles to keep per feed. If the number is set to 0, then all articles are kept.
-max-items 100 
-
-# If set to "yes", then all read articles will be deleted when you quit newsbeuter. 
-#delete-read-articles-on-quit yes 
-
-# Toggle the read flag for the currently selected article. 
-unbind-key n
-bind-key n toggle-article-read
-
-# Ignore articles.
+ignore-article "*" "title =~ \"Sponsor\""
+ignore-article "*" "title =~ \"Advertisement\""
 ignore-mode "display"
+ 
+# Formatting and colorization ------------------------------------------
 
-feedlist-format "%4i %n %11u %t"
-articlelist-format  "%4i %f %D  %?T?%-17T  ?%t" 
+articlelist-format "%4i %f %D  %?T?|%-17T| ?%t"
 
-bind-key BACKSPACE toggle-article-read
+highlight feedlist    "^  *[0-9]+  *N  "              color156 default
+highlight articlelist "^  *[0-9]+  *N  "              color156 default
 
-# Colors.
-color listnormal color12 color8
-color listfocus black white
-color listnormal_unread default color8
-color listfocus_unread black white
-color background color12 color8
-color info white black bold
-color article color12 color8
+highlight article     "^(Feed|Title|Author|Link|Date):.*"     color75 default
+highlight article     "^Podcast Download URL:.*"               color71 default
+highlight article     "^Links:"     yellow  color240  underline
+highlight article     "\\[[0-9][0-9]*\\]"                          color72 default bold
+highlight article     "\\[image [0-9][0-9]*\\]"                    color72 default bold
+highlight article     "\\[embedded flash: [0-9][0-9]*\\]"     color72 default bold
+highlight article     ":.*\\(link\\)$"               color72 default
+highlight article     ":.*\\(image\\)$"              color74 default
+highlight article     ":.*\\(embedded flash\\)$"     color74 default
+
+color listnormal 			color244 color234
+color listnormal_unread 	color244 color234
+color listfocus  			color166 color235
+color info       			color136 color235
+color background 			color244 color234
+color article    			color244 color234
