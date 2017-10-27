@@ -1,5 +1,9 @@
 " LOADING
 execute pathogen#infect()
+set nobackup
+set nowritebackup
+set noswapfile
+set dir=/tmp
 
 " LEADER
 let mapleader=" "
@@ -88,7 +92,7 @@ map <D-A-LEFT> <C-w>h
 map <D-A-DOWN> <C-w><C-w>
 map <D-A-UP> <C-w>W
 
-" RELOAD VIMRC
+" RELOAD VIMR
 map <leader>s :source ~/.vimrc<CR>
 
 " CONTROL+T
@@ -101,6 +105,15 @@ map <leader>a :AV<CR>
 " ES6
 au BufNewFile,BufRead *.es6 set filetype=javascript
 
+" LIGHTLINE
+"let g:lightline = { 'colorscheme': '', }                      "vim-lightline
+set laststatus=2                                            "vim-lightline
+set noshowmode                                             "vim-lightline
+
 " SWITCH SCHEME
 map <Leader>l :colorscheme Tomorrow<CR>
 map <Leader>k :colorscheme Tomorrow-Night<CR>
+
+if has('mouse')
+  set mouse=a
+endif
