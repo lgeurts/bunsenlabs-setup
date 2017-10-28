@@ -106,9 +106,9 @@ map <leader>a :AV<CR>
 au BufNewFile,BufRead *.es6 set filetype=javascript
 
 " LIGHTLINE
-"let g:lightline = { 'colorscheme': '', }                      "vim-lightline
-set laststatus=2                                            "vim-lightline
-set noshowmode                                             "vim-lightline
+" let g:lightline = { 'colorscheme': '', }                      "vim-lightline
+set laststatus=2                                                "vim-lightline
+set noshowmode                                                  "vim-lightline
 
 " SWITCH SCHEME
 map <Leader>l :colorscheme Tomorrow<CR>
