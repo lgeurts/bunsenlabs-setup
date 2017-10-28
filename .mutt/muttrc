@@ -61,7 +61,7 @@ set sort = reverse-date # Sort with the newest at the top
 auto_view text/html
 alternative_order text/plain text/enriched text/html
 
-# Advanced Options -----------------------------------------------------
+# Advanced options -----------------------------------------------------
 set envelope_from = yes # Try to derive the message's envelope sender from the "From:" header 
 set move = no # Don't confirm moving read messages
 set delete = ask-yes # Actually delete messages marked for deletion on exit
@@ -73,25 +73,25 @@ set print = ask-yes # Ask for confirmation before printing
 # Set the proper charsets
 set charset = "utf-8"
 
-# Set Up Folders And Paths ---------------------------------------------
-set alias_file = ~/.mutt/aliases # Where to store aliases
-set header_cache = "~/.mutt/cache/headers" # Where to store headers
-set message_cachedir = "~/.mutt/cache/bodies" # Where to store bodies
-set certificate_file = "~/.mutt/certificates" # Where to store cerificate file
-set tmpdir = ~/.mutt/temp # Where to keep temp files
-set signature = "~/.mutt/gmailsig.txt" # My Gmail signature file
-
 # Show all mails that are flagged (and that I need to reply to)
 macro index .i  "<limit>(~N|~F)<Enter>"  "view new/flag"
 macro index .a  "<limit>~A<Enter>"       "view all"
 
-# Source Other Configuration Files -------------------------------------
+# Query for an address book
+#set query_command = "abook --mutt-query '%s'"
+#macro generic,index,pager \ca "<shell-escape>abook<return>" "launch abook"
+#macro index,pager A "<pipe-message>abook --add-email<return>" "add the sender address to abook"
+
+# Set folders and paths ---------------------------------------------
+set alias_file = ~/.mutt/aliases # Where to store aliases
+set header_cache = "~/.mutt/cache/headers" # Where to store headers
+set message_cachedir = "~/.mutt/cache/bodies" # Where to store bodies
+set certificate_file = "~/.mutt/certificates" # Where to store cerificate file
+set tmpdir	= ~/.mutt/temp # Where to keep temp files
+set signature = "~/.mutt/gmailsig.txt" # My Gmail signature file
+
+# Source configuration files -------------------------------------------
 source ~/.mutt/solarized/mutt-colors-solarized-dark-16.muttrc
 source ~/.mutt/sidebar.muttrc
 source ~/.mutt/gpg.muttrc
 #source $alias_file
-
-# Launch Abook ---------------------------------------------------------
-#set query_command = "abook --mutt-query '%s'"
-#macro generic,index,pager \ca "<shell-escape>abook<return>" "launch abook"
-#macro index,pager A "<pipe-message>abook --add-email<return>" "add the sender address to abook"
