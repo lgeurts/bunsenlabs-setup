@@ -82,7 +82,7 @@ macro index .a  "<limit>~A<Enter>"       "view all"
 #macro generic,index,pager \ca "<shell-escape>abook<return>" "launch abook"
 #macro index,pager A "<pipe-message>abook --add-email<return>" "add the sender address to abook"
 
-# Set folders and paths ---------------------------------------------
+# Set folders and paths ------------------------------------------------
 set alias_file = ~/.mutt/aliases # Where to store aliases
 set header_cache = "~/.mutt/cache/headers" # Where to store headers
 set message_cachedir = "~/.mutt/cache/bodies" # Where to store bodies
