@@ -28,12 +28,13 @@ The same with other wallpaper and the rounded corners patch.
 - Text Editor: `gVim`/`Geany.`
 - MPD client: `ncmpcpp.`
 - IRC client: `HexChat.`
-- Window Manager: `Openbox.`
+- Web Browser: `Firefox.`
+- Window Manager: `i3 Gaps`/`Openbox.`
 - Theme: `Oomox Colors.`
 
 ## Installation
 
-- Download repo: git clone --depth=1.
+- Use git clone --depth=1 to download repo.
 - Inspect dotfiles.
 - Find the stuff you like.
 - Change, add to your dotfiles (don't expect things to work out of the box).
