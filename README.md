@@ -15,7 +15,7 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 
 ![Dirty](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-dirty.png)
 
-The same with the rounded corners patch.
+The same with other wallpaper and the rounded corners patch.
 
 ![Dirty-Rounded](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-rounded-dirty.png)
 
