@@ -17,12 +17,12 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 
 The same with the rounded corners patch.
 
-![Dirty Rounded](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-rounded-dirty.png) 
+![Dirty-Rounded](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-rounded-dirty.png)
 
 ## Setup
 
-- Bar: `tint2.` 
-- Compositor: `compton.` 
+- Bar: `tint2.`
+- Compositor: `compton.`
 - Terminal Emulator: `terminator.`
 - Text Editor: `gVim`/`Geany.`
 - MPD client: `ncmpcpp.`
@@ -33,7 +33,7 @@ The same with the rounded corners patch.
 ## Installation
 - Inspect dotfiles.
 - Find the stuff you like.
-- Change code, add to your dotfiles (don't copy and expect everything to work out of the box).
+- Change code, add to your dotfiles (don't expect everything to work out of the box).
 
 **Note:** Credits for the theme go to Stavros Grigoriou aka [Unix121](https://github.com/unix121). I only made some minor changes.
 
