@@ -26,6 +26,11 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 - Window Manager: `Openbox`
 - Theme: `Oomox Colors`
 
+## Installation
+- Inspect dotfiles.
+- Find the cool things.
+- Add those cool things to your dotfiles.
+
 **Note:** Credits for the theme go to Stavros Grigoriou aka [Unix121](https://github.com/unix121). I only made some minor changes.
 
 <3
