@@ -28,8 +28,8 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 
 ## Installation
 - Inspect dotfiles.
-- Find the cool things.
-- Add those cool things to your dotfiles.
+- Find the stuff you like.
+- Change and add to your dotfiles. Do not just copy!
 
 **Note:** Credits for the theme go to Stavros Grigoriou aka [Unix121](https://github.com/unix121). I only made some minor changes.
 
