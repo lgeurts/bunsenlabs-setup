@@ -24,6 +24,7 @@ The same with other wallpaper and the rounded corners patch.
 
 - Bar: `tint2.`
 - Compositor: `compton.`
+- Shell: `Bash.`
 - Terminal Emulator: `terminator.`
 - Text Editor: `gVim`/`Geany.`
 - MPD client: `ncmpcpp.`
