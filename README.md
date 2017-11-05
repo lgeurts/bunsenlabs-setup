@@ -21,19 +21,19 @@ The same with the rounded corners patch.
 
 ## Setup
 
-- Bar: `tint2`. 
-- Compositor: `compton`. 
-- Terminal Emulator: `terminator`.
-- Text Editor: `gVim`/`Geany`.
-- MPD client: `ncmpcpp`.
-- IRC client: `HexChat`.
-- Window Manager: `Openbox`.
-- Theme: `Oomox Colors`.
+- Bar: `tint2.` 
+- Compositor: `compton.` 
+- Terminal Emulator: `terminator.`
+- Text Editor: `gVim`/`Geany.`
+- MPD client: `ncmpcpp.`
+- IRC client: `HexChat.`
+- Window Manager: `Openbox.`
+- Theme: `Oomox Colors.`
 
 ## Installation
 - Inspect dotfiles.
 - Find the stuff you like.
-- Change and add to your dotfiles. Do not just copy and expect everything to work out of the box!
+- Change and add to your dotfiles (do not just copy and expect everything to work out of the box).
 
 **Note:** Credits for the theme go to Stavros Grigoriou aka [Unix121](https://github.com/unix121). I only made some minor changes.
 
