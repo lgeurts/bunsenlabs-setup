@@ -33,7 +33,7 @@ The same with the rounded corners patch.
 ## Installation
 - Inspect dotfiles.
 - Find the stuff you like.
-- Change and add to your dotfiles (do not just copy and expect everything to work out of the box).
+- Change/add to your dotfiles (don't copy and expect everything to work out of the box).
 
 **Note:** Credits for the theme go to Stavros Grigoriou aka [Unix121](https://github.com/unix121). I only made some minor changes.
 
