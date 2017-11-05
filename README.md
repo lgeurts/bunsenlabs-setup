@@ -31,6 +31,8 @@ The same with other wallpaper and the rounded corners patch.
 - Theme: `Oomox Colors.`
 
 ## Installation
+
+- Download repo: git clone --depth=1.
 - Inspect dotfiles.
 - Find the stuff you like.
 - Change code, add to your dotfiles (don't expect everything to work out of the box).
