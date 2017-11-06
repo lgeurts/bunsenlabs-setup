@@ -12,7 +12,7 @@ Repo holds configs, resource files, scripts, colorschemes, fonts etc. Some made 
 
 ![Clean](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-clean.png)
 
-The obligatory busy screenshot.
+Obligatory busy screenshot, I'm just pretending.
 
 ![Dirty](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-dirty.png)
 
