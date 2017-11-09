@@ -16,7 +16,7 @@ Obligatory busy screenshot, I'm just pretending.
 
 ![Dirty](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-dirty.png)
 
-The same with other wallpaper, gaps and the rounded corners patch.
+The same with other wallpaper, and the rounded corners patch.
 
 ![Dirty-Rounded](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-rounded-dirty.png)
 
