@@ -30,7 +30,7 @@ The same with other wallpaper and the rounded corners patch.
 - MPD client: `ncmpcpp.`
 - IRC client: `HexChat.`
 - Web Browser: `Firefox.`
-- Window Manager: `i3 Gaps`/`Openbox.`
+- Window Manager: `i3 Gaps`/`Openbox (patched).`
 - Theme: `Oomox Colors.`
 
 ## Installation
