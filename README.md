@@ -16,7 +16,7 @@ Obligatory busy screenshot, I'm just pretending.
 
 ![Dirty](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-dirty.png)
 
-The same with other wallpaper and the rounded corners patch.
+The same with other wallpaper, gaps and the rounded corners patch.
 
 ![Dirty-Rounded](https://github.com/lgeurts/lgeurts.github.io/blob/master/assets/bl-colors-rounded-dirty.png)
 
@@ -30,7 +30,7 @@ The same with other wallpaper and the rounded corners patch.
 - MPD client: `ncmpcpp.`
 - IRC client: `HexChat.`
 - Web Browser: `Firefox.`
-- Window Manager: `i3 Gaps`/`Openbox.`
+- Window Manager: `i3-gaps`/`Openbox.`
 - Theme: `Oomox Colors.`
 
 ## Installation
