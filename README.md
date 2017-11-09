@@ -35,7 +35,7 @@ The same with other wallpaper, and the rounded corners patch.
 
 ## Installation
 
-- Use git clone --depth=1 to download repo.
+- Download repo: clone --depth=1.
 - Inspect dotfiles.
 - Find the stuff you like.
 - Change, add to your dotfiles.
