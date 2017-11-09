@@ -38,7 +38,7 @@ The same with other wallpaper, and the rounded corners patch.
 - Use git clone --depth=1 to download repo.
 - Inspect dotfiles.
 - Find the stuff you like.
-- Change, add to your dotfiles (don't expect things to work out of the box).
+- Change, add to your dotfiles.
 
 **Note:** Credits for the theme go to Stavros Grigoriou aka [Unix121](https://github.com/unix121). I only made some minor changes.
 
