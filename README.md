@@ -1,6 +1,6 @@
 # Read Me
 
-[![AUR](https://img.shields.io/aur/license/apt)](https://github.com/lgeurts/BunsenLabs-Setup/blob/master/LICENSE.md) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
+[![AUR](https://img.shields.io/badge/License-GPLv3-blue.svg](https://github.com/lgeurts/BunsenLabs-Setup/blob/master/LICENSE.md) [![Project Status: Active](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)
 
 # BunsenLabs Setup for Hydrogen/Deuterium.
 
